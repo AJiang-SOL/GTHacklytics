@@ -6,6 +6,24 @@ h1{
     
 }
 
+h1{
+    
+}
+
+.dropbtn {
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ddd;
+  }
+
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
 /* To make css for id: #insert id name here{insert css stuff} */
 /* To make css for class: .insert class name here{insert css stuff} */
 /* To make css for html element: insert class name here{insert css stuff} */
