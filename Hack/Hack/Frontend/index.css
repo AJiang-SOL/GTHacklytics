@@ -11,11 +11,11 @@ h1{
     padding: 16px;
     border: none;
     cursor: pointer;
-  }
+}
   
 .dropbtn:hover, .dropbtn:focus {
     background-color: #ddd;
-  }
+}
 
 .dropdown a:hover {background-color: #ddd;}
   
