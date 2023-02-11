@@ -8,10 +8,10 @@ h1{
 
 
 .piechart{
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
-    background: conic-gradient(#ff4a4a .25%, #fff477 .25%, #6eff6e .25%, #7d83ff .25%);
+    background: conic-gradient(#ff4a4a 0% 25%, #fff477 25% 50%, #6eff6e 50% 75%, #7d83ff 75% 100%);
 }
 
 
