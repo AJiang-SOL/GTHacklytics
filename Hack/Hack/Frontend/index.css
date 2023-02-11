@@ -2,6 +2,15 @@ p {
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+h1{
+    font-size:74px;
+}
+
+#joe{
+    font-size:30px;
+    position:relative;
+    top:10px;
+}
 
 
 .piechart{
@@ -64,15 +73,17 @@ p {
 #login{
     float:right;
     position: absolute;
-    top:10px;
+    top:25px;
     right:50px;
+    size:110%;
 }
 
 #signup{
     float:right;
     position: absolute;
-    top:10px;
+    top:25px;
     right:110px;
+    size:110%;
 }
 
 .parent {
@@ -88,9 +99,19 @@ p {
 
 #description{
     border: 1px solid black;
+    left:100px;
+    position: relative;
     float:left;
 }
 
 #youtubeVid{
+    position: relative;
+    right:100px;
     float:right;
+}
+
+
+#why{
+    float:center;
+    position: absolute; 
 }
