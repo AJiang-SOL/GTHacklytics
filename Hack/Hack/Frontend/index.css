@@ -21,8 +21,19 @@ h1{
 
 #taskbar{
     border-bottom: solid;
+    
 }
 
-.inner{
-    display:inline-block;
+#login{
+    float:right;
+    position: absolute;
+    top:10px;
+    right:50px;
+}
+
+#signup{
+    float:right;
+    position: absolute;
+    top:10px;
+    right:120px;
 }
