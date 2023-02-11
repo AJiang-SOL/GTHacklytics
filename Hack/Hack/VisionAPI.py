@@ -1,0 +1,9 @@
+import os
+import io
+from google.cloud import vision
+from google.cloud.vision_v1 import types
+
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'ServiceAccountToken.json'
+
+client = vision.ImageAnnotatorClient()
+print(client)
