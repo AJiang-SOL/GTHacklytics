@@ -45,5 +45,5 @@ def update_graph(dropdwn):
     )
     return (pichart)
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
+plotly.offline.plot(app,filename="pichart.html")
+app.run_server(debug=True)
