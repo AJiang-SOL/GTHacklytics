@@ -17,3 +17,7 @@ h1{
 #taskbar{
     border-bottom: solid;
 }
+
+.inner{
+    display:inline-block;
+}
