@@ -1,0 +1,110 @@
+p {
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size:74px;
+}
+
+#joe{
+    font-size:30px;
+    position:relative;
+    top:10px;
+}
+
+
+.piechart{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#ff4a4a 0% 25%, #fff477 25% 50%, #6eff6e 50% 75%, #7d83ff 75% 100%);
+}
+
+.dropbtn {
+    background-color: #c8ffeb;
+    color: #1b3c1c;
+    width: 100px;
+    font-size: 13px;
+    text-align: center;
+    border-width: 1px;
+    border-color: #3e8e41;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+}
+  
+.dropdown-content a {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #82d485;}
+
+/* To make css for id: #insert id name here{insert css stuff} */
+/* To make css for class: .insert class name here{insert css stuff} */
+/* To make css for html element: insert class name here{insert css stuff} */
+
+#taskbar{
+    border-bottom: solid;
+    
+}
+
+#login{
+    float:right;
+    position: absolute;
+    top:25px;
+    right:50px;
+    size:110%;
+}
+
+#signup{
+    float:right;
+    position: absolute;
+    top:25px;
+    right:110px;
+    size:110%;
+}
+
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+
+#description{
+    border: 1px solid black;
+    left:100px;
+    position: relative;
+    float:left;
+}
+
+#youtubeVid{
+    position: relative;
+    right:100px;
+    float:right;
+}
+
+
+#why{
+    float:center;
+    position: absolute; 
+}
