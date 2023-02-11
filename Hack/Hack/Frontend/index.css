@@ -2,9 +2,18 @@ p {
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+h1{
+    
+}
+
+
 
 
 
 /* To make css for id: #insert id name here{insert css stuff} */
 /* To make css for class: .insert class name here{insert css stuff} */
 /* To make css for html element: insert class name here{insert css stuff} */
+
+#taskbar{
+    border-bottom: solid;
+}
