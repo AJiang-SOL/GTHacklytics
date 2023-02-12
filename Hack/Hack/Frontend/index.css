@@ -140,7 +140,7 @@ ul {
     position: absolute;
     top: 4.1em;
     right: 0;
-    width: calc(100% - 18em);
+    width: 100%;
     overflow-x: hidden;
 }
 
