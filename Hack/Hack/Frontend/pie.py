@@ -38,12 +38,13 @@ html.Div([
 
 def update_graph(dropdwn):
     dff = df
-    pichart=px.pie(
+    app=px.pie(
         data_frame=dff,
         names=dropdwn,
         hole=.3,
     )
-    return (pichart)
+    return (app)
 
-plotly.offline.plot(app,filename="pichart.html")
+plotly.offline.plot(app, filename="pichart.html")
+
 app.run_server(debug=True)
