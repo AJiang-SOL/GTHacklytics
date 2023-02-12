@@ -4,6 +4,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html">
+            <img src="tree.png" alt="user" class="profile-img" />
+            </a>
+            <h1 id="nuts2">NuTree</h1>
+            <h1 id="deez">"Nutrients are the root to all life"</h1>
+        </div>
+    </nav>
+    <main class="dashboard">
     <div class="deez">
         <div class="form-box">
             <div class="button-box">
@@ -17,19 +27,19 @@
             <form id="login" class="input" action="post">
                 <input type="text" class="inputSpot" placeholder="Username" id="user" required>
                 <input type="password" class="inputSpot" placeholder="Password" id="pass" required>
-                <input type="checkbox" class="boxCheck"><span>Remeber Password</span>
+                <input type="checkbox" class="boxCheck"><span>Remember Password</span>
                 <button type="submit" class="submitBtn" onclick="auth(event)">Log in</button>
             </form>
             <form id="register" class="input" action="post">
                 <input type="text" class="inputSpot" placeholder="Username" required>
                 <input type="email" class="inputSpot" placeholder="Email Address" required>
                 <input type="password" class="inputSpot" placeholder="Password" required>
-                <input type="checkbox" class="boxCheck"><span>Agree to Terms & Conditions</span>
+                <input type="checkbox" class="boxCheck" required><span>Agree to <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Terms & Conditions</a></span>
                 <button type="submit" class="submitBtn" onclick="create(event)">Register</button>
             </form>
         </div>
     </div>
-
+    </main>
     <script>
         var log = document.getElementById("login");
         var reg = document.getElementById("register");
@@ -53,6 +63,7 @@
             var userName = document.getElementById("user").value;
             var passWord = document.getElementById("pass").value;
 
+            /*Logging in*/
             if (userName === "admin@gmail.com" && passWord === "admin") {
                 window.location.replace("successfulLog.html");
                 sessionStorage.setItem('name_user', userName);
@@ -60,6 +71,14 @@
                 alert("Invalid information");
                 return;
             }
+        }
+
+        /*Registering account function, not complete*/
+        function create(event){
+            event.preventDefault();
+
+            var userName = document.getElementById("user").value;
+            var passWord = document.getElementById("pass").value;
         }
     </script>
 
