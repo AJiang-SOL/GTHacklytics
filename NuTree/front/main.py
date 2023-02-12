@@ -5,10 +5,11 @@ from sqlalchemy import text
 
 
 def main():
-    pool = Database.pool()
     foodList=VisionAPI.vision()
     for food in foodList:
         nut=FoodAPI.FoodDataLookUp(food)
+        print("Table1")
+        print(nut)
         string = "INSERT INTO table_nameVALUES ({1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}, {9}, {10}, {11}, {12}, {13}, {14}, {15}, {16});".format(nut.get("Protein"),
                                                                                                             nut.get("Carbohydrate, by difference"),
                                                                                                             nut.get("Fiber, total dietary"),
@@ -26,13 +27,10 @@ def main():
                                                                                                             nut.get("Iron, Fe"),
                                                                                                             nut.get("Vitamin E"),
                                                                                                             nut.get("Vitamin B-12"))
-        t= text(string)
-        pool.execute(t)
-        
-        
-    
-    
-
+        print("")
+        print("SQL qurery")
+        print(string)
+        print("")
 main()
     
     
