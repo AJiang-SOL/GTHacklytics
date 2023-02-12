@@ -6,7 +6,7 @@
 
 body{
     color: #fff;
-    background: #1e2234;
+    background: #11163c;
 }
 
 
@@ -17,7 +17,6 @@ body{
 .deez{
     height: 100%;
     width:100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
     background-position:center;
     background-size:cover;
     position:absolute;
@@ -26,6 +25,7 @@ body{
 .form-box{
     width: 380px;
     height: 480px;
+    bottom:-50px;
     position: relative;
     margin: 6% auto;
     background: #fff;
@@ -122,4 +122,50 @@ span{
 #welcome{
     margin:30px auto;
     text-align: center;
+}
+
+.profile-img{
+    width: 3.5em;
+    border-radius: 50%;
+    left: 32px;
+    position: relative;
+}
+
+#nuts2{
+    display: inline;
+    top: 33px;
+    left: 185px;
+    position:absolute;
+}
+
+#deez{
+    text-align:center;
+    display: inline;
+    left:580px;
+    position:absolute;
+    margin: 15px 0px;
+}
+
+.navbar{
+    text-decoration: none;
+    background: linear-gradient(90deg, #262a4f, #122442);
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar .container {
+    max-width: 1350px;
+    padding: 1em 2em;
+    margin: 0 auto;
+}
+
+.dashboard {
+    background: #11163c;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+    text-decoration-line:underline;
 }
