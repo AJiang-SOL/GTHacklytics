@@ -184,6 +184,9 @@ ul {
     align-items: center;
     padding: .5em;
 }
+.common {
+    padding-left: 2em;
+}
 
 .list li:not(:last-child) {
     border-bottom: 1px #2a335e solid;
