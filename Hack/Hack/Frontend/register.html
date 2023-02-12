@@ -14,17 +14,18 @@
             <div>
                 <p id="welcome">Welcome to NuTree :)</p>
             </div>
-            <form id="login" class="input">
-                <input type="text" class="inputSpot" placeholder="Username" required>
-                <input type="text" class="inputSpot" placeholder="Password" required>
+            <form id="login" class="input" action="post">
+                <input type="text" class="inputSpot" placeholder="Username" id="user" required>
+                <input type="password" class="inputSpot" placeholder="Password" id="pass" required>
                 <input type="checkbox" class="boxCheck"><span>Remeber Password</span>
-                <button type="submit" class="submitBtn">Log in</button>
+                <button type="submit" class="submitBtn" onclick="auth(event)">Log in</button>
             </form>
-            <form id="register" class="input">
+            <form id="register" class="input" action="post">
                 <input type="text" class="inputSpot" placeholder="Username" required>
                 <input type="email" class="inputSpot" placeholder="Email Address" required>
-                <input type="text" class="inputSpot" placeholder="Password" required>
-                <button type="submit" class="submitBtn">Register</button>
+                <input type="password" class="inputSpot" placeholder="Password" required>
+                <input type="checkbox" class="boxCheck"><span>Agree to Terms & Conditions</span>
+                <button type="submit" class="submitBtn" onclick="create(event)">Register</button>
             </form>
         </div>
     </div>
@@ -45,7 +46,20 @@
             reg.style.left="450px";
             btn.style.left="0px";
         }
-        
+
+        function auth(event){
+            event.preventDefault();
+
+            var userName = document.getElementById("user").value;
+            var passWord = document.getElementById("pass").value;
+
+            if (userName === "admin@gmail.com" && passWord === "admin") {
+                window.location.replace("upload.html");
+            } else {
+                alert("Invalid information");
+                return;
+            }
+        }
     </script>
 
 </body>
