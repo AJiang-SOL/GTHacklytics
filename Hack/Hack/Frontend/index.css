@@ -37,20 +37,20 @@ ul {
 }
 
 ::-webkit-scrollbar {
-    width: 10px
+    width: 8px
 }
 
 ::-webkit-scrollbar-track {
-    background: #040915;
+    background: #11163c;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #c6c8d0
+    background: #8f8f8f;
 }
 
 .navbar{
     text-decoration: none;
-    background: #122442;
+    background: #11163c;
     z-index: 3;
     position: fixed;
     width: 100%;
@@ -131,7 +131,7 @@ ul {
 } 
 
 .dashboard {
-    background: #161643;
+    background: #11163c;
     padding: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
