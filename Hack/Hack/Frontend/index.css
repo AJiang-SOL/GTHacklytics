@@ -23,6 +23,12 @@ h1,h2,h3,h4{
     
 }
 
+.title {
+    font-size: 3em;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
 a {
     text-decoration: none;
     color: #fff;
@@ -137,19 +143,19 @@ ul {
 } 
 
 .dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 2em;
     background: #11163c;
     padding: 2em;
     position: absolute;
-    top: 4.1em;
+    top: 35em;
     right: 0;
     width: 100%;
     overflow-x: hidden;
 }
-.grid2 {
-    display:grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-}
+
 .panel {
     background: linear-gradient(90deg, #262a4f, #122442);
     box-shadow: -5px -5px 8px #293063, 5px 5px 8px #11163c;
