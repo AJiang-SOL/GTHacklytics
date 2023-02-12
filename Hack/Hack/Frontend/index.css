@@ -1,6 +1,5 @@
 p{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #cbd0f1;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
 }
 
@@ -18,6 +17,7 @@ body{
 
 h1,h2,h3,h4{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -28,11 +28,7 @@ a {
 
 
 
-#joe{
-    font-size:30px;
-    position:relative;
-    top:10px;
-}
+
 
 
 /* To make css for id: #insert id name here{insert css stuff} */
@@ -44,6 +40,13 @@ a {
     
 }
 
+#joe{
+    font-size:30px;
+    position:relative;
+    top:10px;
+    margin: 10px 15px;
+}
+
 #loginCreate{
     float:right;
     position: absolute;
@@ -52,17 +55,15 @@ a {
     size:110%;
 }
 
+#slogan{
+    text-align:center;
+    position: relative;
+    top:-30px;
+}
+
 a:hover {
     text-decoration:none;
     font-weight: bold;
-}
-
-#signup{
-    float:right;
-    position: absolute;
-    top:25px;
-    right:110px;
-    size:110%;
 }
 
 .parent {
@@ -78,22 +79,20 @@ a:hover {
 
 #description{
     border: 1px solid black;
-    left:100px;
-    position: relative;
+   /* position: relative;
+    float:left;*/
     float:left;
+    width: 300px;
+    overflow:auto;
 }
 
-#youtubeVid{
-    position: relative;
-    right:100px;
+
+
+#why{
     float:right;
 }
 
 
-#why{
-    float:center;
-    position: absolute; 
-}
 
 
 

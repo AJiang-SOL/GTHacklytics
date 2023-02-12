@@ -1,9 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    color: #fff;
+    background: #151a2c;
+}
 
 
 
@@ -32,6 +36,7 @@
 #welcome{
     position:relative;
     float:center;
+    color: black;
 }
 
 .button-box{
