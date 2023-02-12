@@ -25,8 +25,7 @@ h1,h2,h3,h4{
 
 .title {
     font-size: 3em;
-    margin-top: 15px;
-    margin-left: 70px;
+    margin-bottom: .5em;
 }
 
 a {
@@ -136,24 +135,32 @@ ul {
 .btn{
     background: linear-gradient(90deg, #175cdd,#0388ee);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    font-size: 1.2em;
+    font-size: 1.1em;
     border-radius: 2em;
     display: inline-block;
-    padding: 0.5em 1.5em;
+    padding: 0.5em 1.4em;
+    margin-bottom: 3em;
 } 
 
 .dashboard {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 2em; */
+    background: #11163c;
+    padding: 2em;
+    position: absolute;
+    top: 6em;
+    right: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.ta{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     grid-gap: 2em;
-    background: #11163c;
-    padding: 2em;
-    position: absolute;
-    top: 35em;
-    right: 0;
-    width: 100%;
-    overflow-x: hidden;
 }
 
 .panel {
@@ -167,7 +174,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.2em;
+    padding: 1em;
 }
 
 .list li:not(:last-child) {
