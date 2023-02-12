@@ -54,7 +54,8 @@
             var passWord = document.getElementById("pass").value;
 
             if (userName === "admin@gmail.com" && passWord === "admin") {
-                window.location.replace("upload.html");
+                window.location.replace("successfulLog.html");
+                sessionStorage.setItem('name_user', userName);
             } else {
                 alert("Invalid information");
                 return;

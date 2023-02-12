@@ -237,6 +237,14 @@ a:hover {
     float:right;
 }
 
+#nameUser{
+    float:right;
+    position: absolute;
+    top:25px;
+    right:50px;
+    size:110%;
+}
+
 
 
 
