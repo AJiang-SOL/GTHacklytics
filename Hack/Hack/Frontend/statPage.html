@@ -10,9 +10,6 @@
 
         <nav class="navbar">
             <div class="container">
-
-                <div>
-                <div class="ta1">
                     <div>
                     <ul class="option">
                         <li>
@@ -21,19 +18,10 @@
                             </a>
                         </li>
                     </ul>
-                    </div>
-                    <div><h1>NuTree</h1></div>
-                </div>
-                </div>
-
-                <div>
-                    <p>dsjghdj</p>
-                </div>
-
-                <div>
-                    <div class="ta1">
-                    <div>emagil here</div>
-                    <div>
+                    <h1>NuTree</h1>
+                    <br>
+                    <h1>"Nutrients are the roots to all life"</h1>
+                    <p id="dancing"></p>
                     <ul class="option">
                         <li>
                             <a href="statPage.html">
@@ -41,10 +29,7 @@
                             </a>
                         </li>
                     </ul>
-                    </div>
-                    </div>
                 </div>
-
 
             </div>
         </nav>
@@ -146,7 +131,9 @@
             </div>
 
         </main>
-
+        <script>
+            document.getElementById("dancing").innerText=sessionStorage.getItem('name_user');
+        </script>
     </body>
 
 </html>
