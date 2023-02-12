@@ -117,7 +117,6 @@ ul {
 .profile-img{
     width: 3.5em;
     border-radius: 50%;
-    float: right;
 }
 
 .note{
@@ -234,7 +233,7 @@ a:hover {
     float:right;
     position: absolute;
     display: inline;
-    top: 5px;
+    top: 22px;
     right:50px;
     size:110%;
 }
@@ -244,13 +243,35 @@ a:hover {
     display: inline;
     left:600px;
     position:absolute;
+    margin: 15px 0px;
 }
 
 #nuts{
     display: inline;
+    top: 15px;
+    position:relative;
 }
 
+#nuts2{
+    display: inline;
+    top: 33px;
+    left: 185px;
+    position:absolute;
+}
 
+#pfp{
+    position:absolute;
+    right:175px;
+    width: 3.5em;
+    border-radius: 50%;
+    top:15px;
+}
+
+#logOut{
+    position:absolute;
+    right:100px;
+    font-size: 10px;
+}
 
 
 
