@@ -71,7 +71,7 @@ ul {
 
 .navbar .container > div {
     display: grid;
-    grid-template-columns: 1fr 84px 116px auto 200px 1fr;
+    grid-template-columns: 61px 81px 59px 1fr 140px 61px;
     grid-template-rows: 1fr;
     align-items: center;
     text-align: center;
