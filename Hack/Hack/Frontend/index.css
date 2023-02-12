@@ -104,7 +104,7 @@ ul {
 }
 
 .options span {
-    font-size 2em;
+    font-size: 2em;
     color: #fff;
 }
 
@@ -205,11 +205,34 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     grid-gap: 2em;
-
+    position: absolute;
+    top: 4.1em;
+    right: 0;
+    width: calc(100% - 18em);
+    overflow-x: hidden;
 }
 
+.panel {
+    background: linear-gradient(90deg, #262a4f, #122442);
+    box-shadow: -5px -5px 8px #293063, 5px 5px 8px #11163c;
+    border-radius: 15px;
+    overflow: hidden;
+}
 
+.list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em;
+}
 
+.list li:not(:last-child) {
+    border-bottom: 1px #2a335e solid;
+}
+
+.list span {
+    color: #ea335d;
+}
 
 
 
