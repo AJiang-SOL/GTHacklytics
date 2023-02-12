@@ -27,7 +27,6 @@ def FoodDataLookUp(food: str):
                 if nutrient['nutrientName'] in lookupTable:
                     dic[nutrient['nutrientName']] = nutrient['value']
             break
-    print(dic)
     return dic
     
 

@@ -8,17 +8,16 @@ Ban_words = {"subtotal","total","change","payment","purchase","service","tip","s
              "foodstores", "balancedue", "visa" ,"totaltax", "authcode", "savingmadeeasy" }
 
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "APIs/ServiceAccountToken.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "front/APIs/ServiceAccountToken.json"
 
 
 
 client = vision.ImageAnnotatorClient()
 
 Filename = "example2.jpeg"
-Dir = "./Data"
+Dir = "./front/Data"
 
 def vision():
-
     with io.open(os.path.join(Dir, Filename), 'rb') as imageFile:
         content = imageFile.read()
 
