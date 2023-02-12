@@ -31,5 +31,5 @@ def FoodDataLookUp(food: str):
     return dic
     
 
-FoodDataLookUp()
+FoodDataLookUp("MANAGER DIANA EARNEST")
     
