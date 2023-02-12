@@ -44,12 +44,17 @@ a {
     
 }
 
-#login{
+#loginCreate{
     float:right;
     position: absolute;
     top:25px;
     right:50px;
     size:110%;
+}
+
+a:hover {
+    text-decoration:none;
+    font-weight: bold;
 }
 
 #signup{
@@ -89,3 +94,7 @@ a {
     float:center;
     position: absolute; 
 }
+
+
+
+
