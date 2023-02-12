@@ -71,7 +71,7 @@ ul {
 
 .navbar .container > div {
     display: grid;
-    grid-template-columns: auto 16fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
 }
@@ -162,7 +162,11 @@ ul {
     justify-content: center;
     grid-gap: 2em;
 }
-
+.ta1{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
 .panel {
     background: linear-gradient(90deg, #262a4f, #122442);
     box-shadow: -5px -5px 8px #293063, 5px 5px 8px #11163c;
