@@ -20,6 +20,7 @@ h1,h2,h3,h4{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color:  #fff;
+    
 }
 
 a {
@@ -58,7 +59,7 @@ ul {
 }
 
 .navbar .container {
-    max-width: 1250px;
+    max-width: 1350px;
     padding: 1em 2em;
     margin: 0 auto;
 }
@@ -182,32 +183,21 @@ ul {
 /* To make css for class: .insert class name here{insert css stuff} */
 /* To make css for html element: insert class name here{insert css stuff} */
 
-#taskbar{
-    border-bottom: solid;
-    
-}
 
-#joe{
-    font-size:30px;
-    position:relative;
-    top:10px;
-    margin: 10px 15px;
-}
 
 #loginCreate{
-    float:right;
     position: absolute;
-    top:25px;
-    right:50px;
+    top:30px;
     size:110%;
+    right:50px;
 }
 
 #slogan{
     text-align:center;
-    position: relative;
-    top:-30px;
+    position: absolute;
     font-size: 20px;
     margin: 5px 5px;
+    display:inline-block;
 }
 
 a:hover {
@@ -236,7 +226,6 @@ a:hover {
 }
 
 
-
 #why{
     float:right;
 }
@@ -244,9 +233,21 @@ a:hover {
 #nameUser{
     float:right;
     position: absolute;
-    top:25px;
+    display: inline;
+    top: 5px;
     right:50px;
     size:110%;
+}
+
+#deez{
+    text-align:center;
+    display: inline;
+    left:600px;
+    position:absolute;
+}
+
+#nuts{
+    display: inline;
 }
 
 
