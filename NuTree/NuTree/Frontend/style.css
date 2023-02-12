@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: #fff;
+    background: #11163c;
+}
+
+
+
+
+/* Login and stuff below*/
+
+.deez{
+    height: 100%;
+    width:100%;
+    background-position:center;
+    background-size:cover;
+    position:absolute;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    bottom:-50px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+
+#welcome{
+    position:relative;
+    float:center;
+    color: black;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: #0388ee;
+}
+
+#butt{
+    top:0;
+    left:0;
+    position:absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#040915,#1e2234);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.inputSpot{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left:0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submitBtn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#040915,#1e2234);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: #0388ee
+}
+
+.boxCheck{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color:#777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left:50px;
+}
+
+#register{
+    left:400px;
+}
+
+#welcome{
+    margin:30px auto;
+    text-align: center;
+}
+
+.profile-img{
+    width: 3.5em;
+    border-radius: 50%;
+    left: 32px;
+    position: relative;
+}
+
+#nuts2{
+    display: inline;
+    top: 33px;
+    left: 185px;
+    position:absolute;
+}
+
+#deez{
+    text-align:center;
+    display: inline;
+    left:580px;
+    position:absolute;
+    margin: 15px 0px;
+}
+
+.navbar{
+    text-decoration: none;
+    background: linear-gradient(90deg, #262a4f, #122442);
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar .container {
+    max-width: 1350px;
+    padding: 1em 2em;
+    margin: 0 auto;
+}
+
+.dashboard {
+    background: #11163c;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+    text-decoration-line:underline;
+}

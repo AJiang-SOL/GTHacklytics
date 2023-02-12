@@ -1,82 +1,233 @@
-p {
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 0.9em;
 }
 
-h1{
-    font-size:74px;
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #11163c;
+    min-height: 100vh;
 }
 
-#joe{
-    font-size:30px;
-    position:relative;
-    top:10px;
+*{
+    box-sizing: border-box;
 }
 
-
-.piechart{
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background: conic-gradient(#ff4a4a 0% 25%, #fff477 25% 50%, #6eff6e 50% 75%, #7d83ff 75% 100%);
+h1,h2,h3,h4{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #fff;
+    
 }
 
-.dropbtn {
-    background-color: #c8ffeb;
-    color: #1b3c1c;
-    width: 100px;
-    font-size: 13px;
+.title {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+small {
+    color: #1e2234;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px
+}
+
+::-webkit-scrollbar-track {
+    background: #11163c;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8f8f8f;
+}
+
+.navbar{
+    text-decoration: none;
+    background: linear-gradient(90deg, #262a4f, #122442);
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar .container {
+    max-width: 1350px;
+    padding: 1em 2em;
+    margin: 0 auto;
+}
+
+.navbar .container > div {
+    display: grid;
+    grid-template-columns: 61px 81px 59px 1fr 140px 61px;
+    grid-template-rows: 1fr;
+    align-items: center;
     text-align: center;
-    border-width: 1px;
-    border-color: #3e8e41;
 }
-  
-.dropdown {
-    position: relative;
+
+.navbar .menu, 
+.navbar .social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
     display: inline-block;
 }
-  
-.dropdown-content {
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.navbar ul a {
+    font-size: 0.8em;
+    padding-bottom: 0.2em;
+    transition: 0.3s;
+}
+
+.navbar ul a:hover{
+    color: #fff;
+}
+
+.navbar .active{
+    border-bottom: 2px #034ab6 solid;
+    color: #fff;
+}
+
+.navbar .container .menu-btn {
     display: none;
+}
+
+.options span {
+    font-size: 2em;
+    color: #fff;
+}
+
+.logo{
+    width: 3.5em;
+    border-radius: 50%;
+}
+.profile-img{
+    width: 3.5em;
+    border-radius: 50%;
+}
+
+.note{
+    background: linear-gradient(90deg, #040915, #161643);
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0.5), inset 5px 5px 0 #040915, inset -5px -5px 0 #01020a;
+    padding: 1.5em;
+    border-radius: 15px;
+}
+
+.btn{
+    background: linear-gradient(90deg, #175cdd,#0388ee);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+    color: #fff;
+    border-radius: 2em;
+    display: inline-block;
+    padding: 0.5em 1.4em;
+    margin-bottom: 3em;
+} 
+
+.dashboard {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 2em; */
+    background: #11163c;
+    padding: 2em;
     position: absolute;
-    background-color: #f1f1f1;
+    top: 6em;
+    right: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
-  
-.dropdown-content a {
-    color: black;
-    font-size: 13px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    width: 100px;
+.ta1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 2em;
 }
-  
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #82d485;}
+.ta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 2em;
+}
+
+.panel {
+    background: linear-gradient(90deg, #262a4f, #122442);
+    box-shadow: -5px -5px 8px #293063, 5px 5px 8px #11163c;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+}
+.common {
+    padding-left: 2em;
+}
+
+.list li:not(:last-child) {
+    border-bottom: 1px #2a335e solid;
+    padding: 0.5em;
+}
+
+.list span {
+    color: #ea335d;
+}
+
+
+
+
+
+
+
 
 /* To make css for id: #insert id name here{insert css stuff} */
 /* To make css for class: .insert class name here{insert css stuff} */
 /* To make css for html element: insert class name here{insert css stuff} */
 
-#taskbar{
-    border-bottom: solid;
-    
-}
 
-#login{
-    float:right;
+
+#loginCreate{
     position: absolute;
-    top:25px;
+    top:30px;
+    size:110%;
     right:50px;
-    size:110%;
 }
 
-#signup{
-    float:right;
+#slogan{
+    text-align:center;
     position: absolute;
-    top:25px;
-    right:110px;
-    size:110%;
+    font-size: 20px;
+    margin: 5px 5px;
+    display:inline-block;
+}
+
+a:hover {
+    text-decoration:none;
+    font-weight: bold;
 }
 
 .parent {
@@ -91,20 +242,104 @@ h1{
   }
 
 #description{
-    border: 1px solid black;
-    left:100px;
-    position: relative;
+    border: 1px solid white;
+    border-radius: 25px;
     float:left;
-}
-
-#youtubeVid{
-    position: relative;
-    right:100px;
-    float:right;
+    width: 400px;
+    overflow:auto;
 }
 
 
 #why{
-    float:center;
-    position: absolute; 
+    border: 1px solid white;
+    border-radius: 25px;
+    float:right;
+    overflow:auto;
+    width: 400px;
 }
+
+#nameUser{
+    float:right;
+    position: absolute;
+    display: inline;
+    top: 22px;
+    right:50px;
+    size:110%;
+}
+
+#deez{
+    text-align:center;
+    display: inline;
+    left:580px;
+    position:absolute;
+    margin: 15px 0px;
+}
+
+#nuts{
+    display: inline;
+    top: 15px;
+    position:relative;
+}
+
+#nuts2{
+    display: inline;
+    top: 33px;
+    left: 185px;
+    position:absolute;
+}
+
+#pfp{
+    position:absolute;
+    right:175px;
+    width: 3.5em;
+    border-radius: 50%;
+    top:15px;
+}
+
+#logOut{
+    position:absolute;
+    right:100px;
+    font-size: 10px;
+    bottom:15px;
+}
+
+.header{
+    text-align: center;
+    font-size: 50px;    
+}
+
+.descriptors{
+    font-size: 20px;
+}
+
+#picSub{
+    text-align: center;
+    position:relative;
+}
+
+#myFile{
+    position:absolute;
+    top:3px;
+    left:725px;
+    margin: 10px 0px;
+}
+
+#fileLabel{
+    position:absolute;
+    top:3px;
+    left:535px;
+    margin: 10px 0px;
+}
+
+#btnSub{
+    border-radius: 25px;
+    margin: 10px 5px;
+}
+
+#centerPic{
+    border-radius: 25px;
+    position:relative;
+    right:-137px;
+
+}
+
