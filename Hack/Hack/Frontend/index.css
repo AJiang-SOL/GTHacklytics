@@ -137,6 +137,7 @@ ul {
     background: linear-gradient(90deg, #175cdd,#0388ee);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-size: 1.1em;
+    color: #fff;
     border-radius: 2em;
     display: inline-block;
     padding: 0.5em 1.4em;
@@ -156,7 +157,12 @@ ul {
     width: 100%;
     overflow-x: hidden;
 }
-
+.ta1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 2em;
+}
 .ta{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -169,17 +175,19 @@ ul {
     box-shadow: -5px -5px 8px #293063, 5px 5px 8px #11163c;
     border-radius: 15px;
     overflow: hidden;
+    padding: 1em;
 }
 
 .list li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: .5em;
 }
 
 .list li:not(:last-child) {
     border-bottom: 1px #2a335e solid;
+    padding: 0.5em;
 }
 
 .list span {
