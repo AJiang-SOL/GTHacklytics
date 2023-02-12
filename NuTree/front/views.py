@@ -12,4 +12,5 @@ def loadRegister(request):
 
 def loadStats(request):
     #get objects from database
+    #preprocess
     return render(request, 'Frontend/statPage.html')
