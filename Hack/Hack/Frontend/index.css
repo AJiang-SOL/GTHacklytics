@@ -8,7 +8,7 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    background: #1e2234;
+    background: #11163c;
     min-height: 100vh;
 }
 
@@ -19,7 +19,7 @@ body{
 h1,h2,h3,h4{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color:  #0388ee;
+    color:  #fff;
 }
 
 a {
@@ -51,7 +51,7 @@ ul {
 
 .navbar{
     text-decoration: none;
-    background: #11163c;
+    background: linear-gradient(90deg, #262a4f, #122442);
     z-index: 3;
     position: fixed;
     width: 100%;
@@ -65,11 +65,12 @@ ul {
 
 .navbar .container > div {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
-.navbar .menu, .navbar .social-media {
+.navbar .menu, 
+.navbar .social-media {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,8 +87,6 @@ ul {
 
 .navbar ul a {
     font-size: 0.8em;
-    text-transform: uppercase;
-    color: #c6c8d0;
     padding-bottom: 0.2em;
     transition: 0.3s;
 }
