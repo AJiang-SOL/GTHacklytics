@@ -6,7 +6,7 @@
 
 body{
     color: #fff;
-    background: #151a2c;
+    background: #1e2234;
 }
 
 
@@ -54,6 +54,7 @@ body{
     border: 0;
     outline: none;
     position: relative;
+    color: #0388ee;
 }
 
 #butt{
@@ -62,7 +63,7 @@ body{
     position:absolute;
     width: 110px;
     height: 100%;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right,#040915,#1e2234);
     border-radius: 30px;
     transition: .5s;
 }
@@ -92,10 +93,11 @@ body{
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right,#040915,#1e2234);
     border: 0;
     outline: none;
     border-radius: 30px;
+    color: #0388ee
 }
 
 .boxCheck{
