@@ -304,4 +304,34 @@ a:hover {
     font-size: 20px;
 }
 
+#picSub{
+    text-align: center;
+    position:relative;
+}
+
+#myFile{
+    position:absolute;
+    top:3px;
+    left:725px;
+    margin: 10px 0px;
+}
+
+#fileLabel{
+    position:absolute;
+    top:3px;
+    left:535px;
+    margin: 10px 0px;
+}
+
+#btnSub{
+    border-radius: 25px;
+    margin: 10px 5px;
+}
+
+#centerPic{
+    border-radius: 25px;
+    position:relative;
+    right:-137px;
+
+}
 
